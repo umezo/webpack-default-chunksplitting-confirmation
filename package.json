@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:sample1": "webpack --config webpack.1-vendor.js"
   },
   "author": "",
   "license": "ISC",
