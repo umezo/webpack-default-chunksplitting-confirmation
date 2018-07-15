@@ -26,3 +26,25 @@ mode production
 ### loading sequence
 mode development
 ![loading sequence image](./images/sample1.gif)
+
+## Vendor Overlapping
+
+### build
+```
+npm run build:sample2
+```
+
+### bundle and chunks
+mode production
+```
+ 99K 0.js       react, react-dom
+ 70K 1.js       lodash
+ 139 2.js       chunk-c, ComponentC
+ 139 3.js       chunk-b, ComponentB
+ 134 4.js       chunk-a, ComponentA
+2.3K sample2.js
+```
+
+### loading sequence
+mode development
+![loading sequence image](./images/sample2.gif)

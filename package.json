@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:sample1": "webpack --config webpack.1-vendor.js"
+    "build:sample1": "webpack --config webpack.1-vendor.js",
+    "build:sample2": "webpack --config webpack.2-vendor-overlapping.js"
   },
   "author": "",
   "license": "ISC",
