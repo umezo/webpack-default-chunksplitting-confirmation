@@ -1,0 +1,17 @@
+{
+  "name": "webpack-default-chunksplitting-confirmation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "react": "16.4.1",
+    "webpack": "4.16.0",
+    "webpack-cli": "3.0.8",
+    "webpack-serve": "2.0.2"
+  }
+}
