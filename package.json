@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build:sample1": "webpack --config webpack.1-vendor.js",
-    "build:sample2": "webpack --config webpack.2-vendor-overlapping.js"
+    "build:sample2": "webpack --config webpack.2-vendor-overlapping.js",
+    "build:sample3": "webpack --config webpack.3-shared-modules.js"
   },
   "author": "",
   "license": "ISC",

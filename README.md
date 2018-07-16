@@ -4,7 +4,7 @@ its cases are explained by [Tobias Koppers in this post](https://medium.com/webp
 
 # Samples
 
-## Vendors
+## 1. Vendors
 
 ### build
 ```
@@ -27,7 +27,7 @@ mode production
 mode development
 ![loading sequence image](./images/sample1.gif)
 
-## Vendor Overlapping
+## 2. Vendor Overlapping
 
 ### build
 ```
@@ -48,3 +48,21 @@ mode production
 ### loading sequence
 mode development
 ![loading sequence image](./images/sample2.gif)
+
+
+## 3. Shared modules
+
+### build
+```
+npm run build:sample3
+```
+
+### bundle and chunks
+```
+  92 0.js       BigSharedComponent (no code remains. tree shaking?)
+ 65K 1.js       Vue.js
+ 132 2.js       chunk-c, ComponentC
+ 169 3.js       chunk-b, ComponentB, SmallSharedComponent
+ 171 4.js       chunk-a, ComponentA, SmallSharedComponent
+2.3K sample3.js
+```
