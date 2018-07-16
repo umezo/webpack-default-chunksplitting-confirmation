@@ -6,11 +6,6 @@ its cases are explained by [Tobias Koppers in this post](https://medium.com/webp
 
 ## 1. Vendors
 
-### build
-```
-npm run build:sample1
-```
-
 ### bundle and chunks
 mode production
 ```
@@ -29,11 +24,6 @@ mode development
 
 ## 2. Vendor Overlapping
 
-### build
-```
-npm run build:sample2
-```
-
 ### bundle and chunks
 mode production
 ```
@@ -50,13 +40,8 @@ mode development
 ![loading sequence image](./images/sample2.gif)
 
 
-## 3. Shared modules
-
-### build
-```
-npm run build:sample3
-```
-
+## 3. Shared Modules
+mode production
 ### bundle and chunks
 ```
   92 0.js       BigSharedComponent (no code remains. tree shaking?)
