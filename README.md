@@ -2,6 +2,10 @@
 this repocitory contains sample codes to comfirm how webpack split chunks.
 its cases are explained by [Tobias Koppers in this post](https://medium.com/webpack/webpack-4-code-splitting-chunk-graph-and-the-splitchunks-optimization-be739a861366)
 
+# Build
+build whole samples
+`npm run build`
+
 # Samples
 
 ## 1. Vendors

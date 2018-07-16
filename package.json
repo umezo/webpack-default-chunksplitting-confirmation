@@ -7,7 +7,8 @@
     "build:sample1": "webpack --config webpack.1-vendor.js",
     "build:sample2": "webpack --config webpack.2-vendor-overlapping.js",
     "build:sample3": "webpack --config webpack.3-shared-modules.js",
-    "build:sample4": "webpack --config webpack.4-multiple-shared-modules.js"
+    "build:sample4": "webpack --config webpack.4-multiple-shared-modules.js",
+    "build": "npm run build:sample1 && npm run build:sample2 && npm run build:sample3 && npm run build:sample4"
   },
   "author": "",
   "license": "ISC",
