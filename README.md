@@ -66,3 +66,19 @@ npm run build:sample3
  171 4.js       chunk-a, ComponentA, SmallSharedComponent
 2.3K sample3.js
 ```
+
+## 4. Multiple Shared Modules
+
+### bundle and chunks
+mode production
+```
+ 99K 0.js       react, react-dom
+176K 1.js       angular
+  97 2.js       SharedAngularComponent
+ 116 3.js       SharedReactComponent
+ 132 4.js       chunk-d, ComponentA
+ 130 5.js       chunk-c
+ 139 6.js       chunk-b, ComponentB
+ 120 7.js       chunk-a, ComponentA
+2.4K sample4.js
+```
